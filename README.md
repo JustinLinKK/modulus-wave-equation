@@ -26,7 +26,7 @@
 
 <!-- Status -->
 
-<!-- <h4 align="center"> 
+< <h4 align="center"> 
 	🚧  Modulus Wave Equation 🚀 Under construction...  🚧
 </h4> 
 
@@ -35,10 +35,12 @@
 <p align="center">
   <a href="#dart-about">About</a> &#xa0; | &#xa0; 
   <a href="#sparkles-features">Features</a> &#xa0; | &#xa0;
+  <a href="#construction-ToDo">ToDo</a> &#xa0; | &#xa0;
   <a href="#rocket-technologies">Technologies</a> &#xa0; | &#xa0;
   <a href="#white_check_mark-requirements">Requirements</a> &#xa0; | &#xa0;
   <a href="#checkered_flag-starting">Starting</a> &#xa0; | &#xa0;
   <a href="#memo-license">License</a> &#xa0; | &#xa0;
+  <a href="#memo-Citation">Citation</a> &#xa0; | &#xa0;
   <a href="https://github.com/JustinLinKK" target="_blank">Author</a>
 </p>
 
@@ -46,13 +48,20 @@
 
 ## :dart: About ##
 
-This is the example for wave equations from 1 dimension to 3 dimension. It is froked from the [Mudulus-Sym-examples](https://docs.nvidia.com/deeplearning/modulus/modulus-sym/user_guide/foundational/1d_wave_equation.html) with additional code attached so you can create your own dataset using the additional code and [Devito](https://www.devitoproject.org/) library.
+This is the example for wave equations from 1 dimension to 3 dimensions. It is froked from the [Mudulus-Sym-examples](https://docs.nvidia.com/deeplearning/modulus/modulus-sym/user_guide/foundational/1d_wave_equation.html) with additional code attached so you can create your own dataset using the additional code and [Devito](https://www.devitoproject.org/) library.
 
 ## :sparkles: Features ##
 
 :heavy_check_mark: Use the Neural Network and [CUDA Toolkits](https://docs.nvidia.com/cuda/doc/index.html) to solve the wave equation;\
 :heavy_check_mark: Same precision as the Benchmark result from [Devito](https://www.devitoproject.org/) and less error caused by the boundary reflection;\
 :heavy_check_mark: Added the 3D wave equation example;
+
+## :Construction: ToDo ##
+
+:Donkey: Find the proper Plotter for the 3D example in vaildation;\
+:Donkey: Update all the comment in the code line;\
+:Donkey: Find the proper way to post process the result in ParaView;\
+
 
 ## :rocket: Technologies ##
 
