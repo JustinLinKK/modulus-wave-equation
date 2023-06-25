@@ -58,9 +58,9 @@ This is the example for wave equations from 1 dimension to 3 dimensions. It is f
 
 ## :Construction: ToDo ##
 
-:Donkey: Find the proper Plotter for the 3D example in vaildation;\
-:Donkey: Update all the comment in the code line;\
-:Donkey: Find the proper way to post process the result in ParaView;\
+- Find the proper Plotter for the 3D example in vaildation;
+- Update all the comment in the code line;
+- Find the proper way to post process the result in ParaView;
 
 
 ## :rocket: Technologies ##
