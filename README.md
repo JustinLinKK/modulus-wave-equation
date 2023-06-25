@@ -1,2 +1,2 @@
-# modulus-wave-equation
-Wave Equation examples using the nvidia modulus-sym
+# Modulus-wave-equation-example
+Wave Equation examples using the Nvidia modulus-sym
