@@ -56,7 +56,7 @@ This is the example for wave equations from 1 dimension to 3 dimensions. It is f
 :heavy_check_mark: Same precision as the Benchmark result from [Devito](https://www.devitoproject.org/) and less error caused by the boundary reflection;\
 :heavy_check_mark: Added the 3D wave equation example;
 
-## :Construct: ToDo ##
+## :barrier: ToDo ##
 
 - Find the proper Plotter for the 3D example in vaildation;
 - Update all the comment in the code line;
