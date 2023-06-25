@@ -50,7 +50,7 @@ This is the example for wave equations from 1 dimension to 3 dimension. It is fr
 
 ## :sparkles: Features ##
 
-:heavy_check_mark: Use the Neural Network and CUDA Toolkits to solve the wave equation;\
+:heavy_check_mark: Use the Neural Network and [CUDA Toolkits](https://docs.nvidia.com/cuda/doc/index.html) to solve the wave equation;\
 :heavy_check_mark: Same precision as the Benchmark result from [Devito](https://www.devitoproject.org/) and less error caused by the boundary reflection;\
 :heavy_check_mark: Added the 3D wave equation example;
 
@@ -88,7 +88,7 @@ $ pip install -r requirements.txt
 This project is under license from GPL-3.0. For more details, see the [LICENSE](LICENSE.md) file.
 
 
-Made with :heart: by <a href="https://github.com/{{JustinLinKK}}" target="_blank">{{Justin}}</a>
+Made with :heart: by <a href="https://github.com/{{JustinLinKK}}" target="_blank">{{JustinLinKK}}</a>
 
 &#xa0;
 
