@@ -9,19 +9,19 @@
 <h1 align="center">Modulus Wave Equation</h1>
 
 <p align="center">
-  <img alt="Github top language" src="https://img.shields.io/github/languages/top/{{JustinLinKK}}/modulus-wave-equation?color=56BEB8">
+  <img alt="Github top language" src="https://img.shields.io/github/languages/top/JustinLinKK/modulus-wave-equation?color=56BEB8">
 
-  <img alt="Github language count" src="https://img.shields.io/github/languages/count/{{JustinLinKK}}/modulus-wave-equation?color=56BEB8">
+  <img alt="Github language count" src="https://img.shields.io/github/languages/count/JustinLinKK/modulus-wave-equation?color=56BEB8">
 
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/{{JustinLinKK}}/modulus-wave-equation?color=56BEB8">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/JustinLinKK/modulus-wave-equation?color=56BEB8">
 
-  <img alt="License" src="https://img.shields.io/github/license/{{JustinLinKK}}/modulus-wave-equation?color=56BEB8">
+  <img alt="License" src="https://img.shields.io/github/license/JustinLinKK/modulus-wave-equation?color=56BEB8">
 
-  <!-- <img alt="Github issues" src="https://img.shields.io/github/issues/{{JustinLinKK}}/modulus-wave-equation?color=56BEB8" /> -->
+  <!-- <img alt="Github issues" src="https://img.shields.io/github/issues/JustinLinKK/modulus-wave-equation?color=56BEB8" /> -->
 
-  <!-- <img alt="Github forks" src="https://img.shields.io/github/forks/{{JustinLinKK}}/modulus-wave-equation?color=56BEB8" /> -->
+  <!-- <img alt="Github forks" src="https://img.shields.io/github/forks/JustinLinKK/modulus-wave-equation?color=56BEB8" /> -->
 
-  <!-- <img alt="Github stars" src="https://img.shields.io/github/stars/{{JustinLinKK}}/modulus-wave-equation?color=56BEB8" /> -->
+  <!-- <img alt="Github stars" src="https://img.shields.io/github/stars/JustinLinKK/modulus-wave-equation?color=56BEB8" /> -->
 </p>
 
 <!-- Status -->
@@ -39,7 +39,7 @@
   <a href="#white_check_mark-requirements">Requirements</a> &#xa0; | &#xa0;
   <a href="#checkered_flag-starting">Starting</a> &#xa0; | &#xa0;
   <a href="#memo-license">License</a> &#xa0; | &#xa0;
-  <a href="https://github.com/{{JustinLinKK}}" target="_blank">Author</a>
+  <a href="https://github.com/JustinLinKK" target="_blank">Author</a>
 </p>
 
 <br>
@@ -72,7 +72,7 @@ Before starting :checkered_flag:, you need to have [Devito](https://www.devitopr
 
 ```bash
 # Clone this project
-$ git clone https://github.com/{{JustinLinKK}}/modulus-wave-equation
+$ git clone https://github.com/JustinLinKK/modulus-wave-equation
 
 # Access
 $ cd modulus-wave-equation
@@ -88,7 +88,7 @@ $ pip install -r requirements.txt
 This project is under license from GPL-3.0. For more details, see the [LICENSE](LICENSE.md) file.
 
 
-Made with :heart: by <a href="https://github.com/{{JustinLinKK}}" target="_blank">{{JustinLinKK}}</a>
+Made with :heart: by <a href="https://github.com/JustinLinKK" target="_blank">JustinLinKK</a>
 
 &#xa0;
 
