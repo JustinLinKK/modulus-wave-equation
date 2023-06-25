@@ -1,0 +1,9 @@
+# #!/bin/bash
+#PBS -N GPUJob
+#PBS -l nodes=1:ppn=1:gpus=1 
+#PBS -l walltime=02:30:00
+#PBS -q gpu
+
+cd /public/home/hengyi/jingbin/3d_wave_equation
+source /public/software/profile.d/cuda10.0.sh
+python wave_3d.py

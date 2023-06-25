@@ -1,0 +1,8 @@
+#!/bin/bash 
+#PBS -N CPUJob 
+#PBS -l nodes=1:ppn=1 
+#PBS -l walltime=02:30:00
+
+source /public/software/profile.d/compiler_intel-compiler-2019u4.sh
+cd /public/home/hengyi/jingbin/3d_wave_equation
+python Nvidia_Devito_3D.py

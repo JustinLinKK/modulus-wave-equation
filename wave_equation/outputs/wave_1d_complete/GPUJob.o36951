@@ -1,0 +1,136 @@
+[16:06:51] - JIT using the NVFuser TorchScript backend
+[16:06:51] - JitManager: {'_enabled': True, '_arch_mode': <JitArchMode.ONLY_ACTIVATION: 1>, '_use_nvfuser': True, '_autograd_nodes': False}
+[16:06:51] - GraphManager: {'_func_arch': False, '_debug': False, '_func_arch_allow_partial_hessian': True}
+[16:06:54] - Installed PyTorch version 2.0.0+cu117 is not TorchScript supported in Modulus. Version 1.13.0a0+d321be6 is officially supported.
+[16:06:54] - attempting to restore from: outputs/wave_1d
+[16:06:54] - optimizer checkpoint not found
+[16:06:54] - model wave_network.0.pth not found
+[16:06:57] - [step:          0] record constraint batch time:  1.131e+00s
+[16:07:28] - [step:          0] record validators time:  3.076e+01s
+[16:07:28] - [step:          0] saved checkpoint to outputs/wave_1d
+[16:07:28] - [step:          0] loss:  2.510e+01
+[16:07:35] - Attempting cuda graph building, this may take a bit...
+[16:07:38] - [step:        100] loss:  9.698e+00, time/iteration:  1.029e+02 ms
+[16:07:42] - [step:        200] loss:  9.875e+00, time/iteration:  3.532e+01 ms
+[16:07:45] - [step:        300] loss:  2.997e+00, time/iteration:  3.531e+01 ms
+[16:07:49] - [step:        400] loss:  1.998e+00, time/iteration:  3.526e+01 ms
+[16:07:52] - [step:        500] loss:  4.699e+00, time/iteration:  3.524e+01 ms
+[16:07:56] - [step:        600] loss:  6.847e-01, time/iteration:  3.524e+01 ms
+[16:07:59] - [step:        700] loss:  4.086e-01, time/iteration:  3.527e+01 ms
+[16:08:03] - [step:        800] loss:  2.785e-01, time/iteration:  3.525e+01 ms
+[16:08:06] - [step:        900] loss:  2.506e-01, time/iteration:  3.525e+01 ms
+[16:08:10] - [step:       1000] record constraint batch time:  8.451e-02s
+[16:08:40] - [step:       1000] record validators time:  2.988e+01s
+[16:08:40] - [step:       1000] saved checkpoint to outputs/wave_1d
+[16:08:40] - [step:       1000] loss:  7.854e-01, time/iteration:  3.407e+02 ms
+[16:08:44] - [step:       1100] loss:  2.758e-01, time/iteration:  3.545e+01 ms
+[16:08:47] - [step:       1200] loss:  2.295e-01, time/iteration:  3.532e+01 ms
+[16:08:51] - [step:       1300] loss:  1.439e-01, time/iteration:  3.533e+01 ms
+[16:08:55] - [step:       1400] loss:  1.629e-01, time/iteration:  3.530e+01 ms
+[16:08:58] - [step:       1500] loss:  3.636e-01, time/iteration:  3.532e+01 ms
+[16:09:02] - [step:       1600] loss:  2.549e-01, time/iteration:  3.530e+01 ms
+[16:09:05] - [step:       1700] loss:  1.324e-01, time/iteration:  3.534e+01 ms
+[16:09:09] - [step:       1800] loss:  4.076e-01, time/iteration:  3.536e+01 ms
+[16:09:12] - [step:       1900] loss:  1.073e-01, time/iteration:  3.534e+01 ms
+[16:09:16] - [step:       2000] record constraint batch time:  5.529e-02s
+[16:09:46] - [step:       2000] record validators time:  3.007e+01s
+[16:09:46] - [step:       2000] saved checkpoint to outputs/wave_1d
+[16:09:46] - [step:       2000] loss:  1.135e-01, time/iteration:  3.426e+02 ms
+[16:09:50] - [step:       2100] loss:  9.755e-02, time/iteration:  3.540e+01 ms
+[16:09:54] - [step:       2200] loss:  9.487e-02, time/iteration:  3.642e+01 ms
+[16:09:57] - [step:       2300] loss:  1.517e-01, time/iteration:  3.577e+01 ms
+[16:10:01] - [step:       2400] loss:  7.473e-02, time/iteration:  3.531e+01 ms
+[16:10:04] - [step:       2500] loss:  7.401e-02, time/iteration:  3.531e+01 ms
+[16:10:08] - [step:       2600] loss:  1.987e-01, time/iteration:  3.531e+01 ms
+[16:10:11] - [step:       2700] loss:  7.051e-02, time/iteration:  3.532e+01 ms
+[16:10:15] - [step:       2800] loss:  6.449e-02, time/iteration:  3.534e+01 ms
+[16:10:18] - [step:       2900] loss:  5.867e-02, time/iteration:  3.533e+01 ms
+[16:10:23] - [step:       3000] record constraint batch time:  5.547e-02s
+[16:10:52] - [step:       3000] record validators time:  2.981e+01s
+[16:10:52] - [step:       3000] saved checkpoint to outputs/wave_1d
+[16:10:52] - [step:       3000] loss:  6.444e-02, time/iteration:  3.399e+02 ms
+[16:10:56] - [step:       3100] loss:  4.918e-02, time/iteration:  3.548e+01 ms
+[16:10:59] - [step:       3200] loss:  6.170e-02, time/iteration:  3.536e+01 ms
+[16:11:03] - [step:       3300] loss:  4.330e-02, time/iteration:  3.532e+01 ms
+[16:11:07] - [step:       3400] loss:  4.256e-02, time/iteration:  3.533e+01 ms
+[16:11:10] - [step:       3500] loss:  5.294e-02, time/iteration:  3.531e+01 ms
+[16:11:14] - [step:       3600] loss:  5.012e-02, time/iteration:  3.533e+01 ms
+[16:11:17] - [step:       3700] loss:  4.393e-02, time/iteration:  3.532e+01 ms
+[16:11:21] - [step:       3800] loss:  3.336e-02, time/iteration:  3.536e+01 ms
+[16:11:24] - [step:       3900] loss:  2.813e-02, time/iteration:  3.535e+01 ms
+[16:11:28] - [step:       4000] record constraint batch time:  5.216e-02s
+[16:11:58] - [step:       4000] record validators time:  2.977e+01s
+[16:11:58] - [step:       4000] saved checkpoint to outputs/wave_1d
+[16:11:58] - [step:       4000] loss:  1.978e-02, time/iteration:  3.393e+02 ms
+[16:12:02] - [step:       4100] loss:  2.282e-02, time/iteration:  3.548e+01 ms
+[16:12:05] - [step:       4200] loss:  2.306e-02, time/iteration:  3.534e+01 ms
+[16:12:09] - [step:       4300] loss:  2.141e-02, time/iteration:  3.537e+01 ms
+[16:12:12] - [step:       4400] loss:  1.840e-02, time/iteration:  3.534e+01 ms
+[16:12:16] - [step:       4500] loss:  2.119e-02, time/iteration:  3.535e+01 ms
+[16:12:19] - [step:       4600] loss:  1.991e-02, time/iteration:  3.537e+01 ms
+[16:12:23] - [step:       4700] loss:  1.593e-02, time/iteration:  3.534e+01 ms
+[16:12:26] - [step:       4800] loss:  2.185e-02, time/iteration:  3.536e+01 ms
+[16:12:30] - [step:       4900] loss:  1.712e-02, time/iteration:  3.536e+01 ms
+[16:12:34] - [step:       5000] record constraint batch time:  5.277e-02s
+[16:13:04] - [step:       5000] record validators time:  3.004e+01s
+[16:13:04] - [step:       5000] saved checkpoint to outputs/wave_1d
+[16:13:04] - [step:       5000] loss:  1.592e-02, time/iteration:  3.419e+02 ms
+[16:13:08] - [step:       5100] loss:  1.273e-02, time/iteration:  3.547e+01 ms
+[16:13:11] - [step:       5200] loss:  1.602e-02, time/iteration:  3.531e+01 ms
+[16:13:15] - [step:       5300] loss:  1.134e-02, time/iteration:  3.527e+01 ms
+[16:13:18] - [step:       5400] loss:  1.644e-02, time/iteration:  3.533e+01 ms
+[16:13:22] - [step:       5500] loss:  9.676e-03, time/iteration:  3.535e+01 ms
+[16:13:25] - [step:       5600] loss:  1.280e-02, time/iteration:  3.535e+01 ms
+[16:13:29] - [step:       5700] loss:  1.168e-02, time/iteration:  3.534e+01 ms
+[16:13:32] - [step:       5800] loss:  1.025e-02, time/iteration:  3.538e+01 ms
+[16:13:36] - [step:       5900] loss:  1.171e-02, time/iteration:  3.534e+01 ms
+[16:13:40] - [step:       6000] record constraint batch time:  5.593e-02s
+[16:14:10] - [step:       6000] record validators time:  2.980e+01s
+[16:14:10] - [step:       6000] saved checkpoint to outputs/wave_1d
+[16:14:10] - [step:       6000] loss:  1.299e-02, time/iteration:  3.395e+02 ms
+[16:14:13] - [step:       6100] loss:  1.228e-02, time/iteration:  3.547e+01 ms
+[16:14:17] - [step:       6200] loss:  1.288e-02, time/iteration:  3.538e+01 ms
+[16:14:21] - [step:       6300] loss:  8.606e-03, time/iteration:  3.534e+01 ms
+[16:14:24] - [step:       6400] loss:  9.343e-03, time/iteration:  3.536e+01 ms
+[16:14:28] - [step:       6500] loss:  7.796e-03, time/iteration:  3.535e+01 ms
+[16:14:31] - [step:       6600] loss:  8.201e-03, time/iteration:  3.534e+01 ms
+[16:14:35] - [step:       6700] loss:  7.294e-03, time/iteration:  3.535e+01 ms
+[16:14:38] - [step:       6800] loss:  8.355e-03, time/iteration:  3.541e+01 ms
+[16:14:42] - [step:       6900] loss:  7.365e-03, time/iteration:  3.537e+01 ms
+[16:14:46] - [step:       7000] record constraint batch time:  5.464e-02s
+[16:15:16] - [step:       7000] record validators time:  2.999e+01s
+[16:15:16] - [step:       7000] saved checkpoint to outputs/wave_1d
+[16:15:16] - [step:       7000] loss:  9.205e-03, time/iteration:  3.412e+02 ms
+[16:15:19] - [step:       7100] loss:  7.042e-03, time/iteration:  3.548e+01 ms
+[16:15:23] - [step:       7200] loss:  8.182e-03, time/iteration:  3.530e+01 ms
+[16:15:27] - [step:       7300] loss:  9.395e-03, time/iteration:  3.542e+01 ms
+[16:15:30] - [step:       7400] loss:  7.401e-03, time/iteration:  3.531e+01 ms
+[16:15:34] - [step:       7500] loss:  9.250e-03, time/iteration:  3.534e+01 ms
+[16:15:37] - [step:       7600] loss:  8.253e-03, time/iteration:  3.534e+01 ms
+[16:15:41] - [step:       7700] loss:  6.581e-03, time/iteration:  3.531e+01 ms
+[16:15:44] - [step:       7800] loss:  8.441e-03, time/iteration:  3.536e+01 ms
+[16:15:48] - [step:       7900] loss:  8.393e-03, time/iteration:  3.533e+01 ms
+[16:15:52] - [step:       8000] record constraint batch time:  5.477e-02s
+[16:16:21] - [step:       8000] record validators time:  2.960e+01s
+[16:16:21] - [step:       8000] saved checkpoint to outputs/wave_1d
+[16:16:21] - [step:       8000] loss:  8.807e-03, time/iteration:  3.375e+02 ms
+[16:16:25] - [step:       8100] loss:  6.533e-03, time/iteration:  3.544e+01 ms
+[16:16:29] - [step:       8200] loss:  7.712e-03, time/iteration:  3.526e+01 ms
+[16:16:32] - [step:       8300] loss:  6.795e-03, time/iteration:  3.524e+01 ms
+[16:16:36] - [step:       8400] loss:  7.794e-03, time/iteration:  3.525e+01 ms
+[16:16:39] - [step:       8500] loss:  5.203e-03, time/iteration:  3.533e+01 ms
+[16:16:43] - [step:       8600] loss:  4.942e-03, time/iteration:  3.530e+01 ms
+[16:16:46] - [step:       8700] loss:  7.587e-03, time/iteration:  3.529e+01 ms
+[16:16:50] - [step:       8800] loss:  7.766e-03, time/iteration:  3.531e+01 ms
+[16:16:53] - [step:       8900] loss:  7.306e-03, time/iteration:  3.530e+01 ms
+[16:16:57] - [step:       9000] record constraint batch time:  5.624e-02s
+[16:17:27] - [step:       9000] record validators time:  2.973e+01s
+[16:17:27] - [step:       9000] saved checkpoint to outputs/wave_1d
+[16:17:27] - [step:       9000] loss:  7.124e-03, time/iteration:  3.387e+02 ms
+[16:17:31] - [step:       9100] loss:  6.089e-03, time/iteration:  3.538e+01 ms
+[16:17:34] - [step:       9200] loss:  6.702e-03, time/iteration:  3.528e+01 ms
+[16:17:38] - [step:       9300] loss:  5.606e-03, time/iteration:  3.531e+01 ms
+[16:17:41] - [step:       9400] loss:  5.421e-03, time/iteration:  3.529e+01 ms
+[16:17:45] - [step:       9500] loss:  7.942e-03, time/iteration:  3.530e+01 ms
+[16:17:48] - [step:       9600] loss:  5.459e-03, time/iteration:  3.530e+01 ms
+[16:17:52] - [step:       9700] loss:  7.575e-03, time/iteration:  3.529e+01 ms
