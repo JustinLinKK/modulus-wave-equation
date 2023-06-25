@@ -46,7 +46,7 @@
 
 ## :dart: About ##
 
-This is the example for wave equations from 1 dimension to 3 dimension. It is froked from the [Mudulus-Sym-examples](https://docs.nvidia.com/deeplearning/modulus/modulus-sym/user_guide/foundational/1d_wave_equation.html) with additional code attached so you can create your own data set using the additional code and [Devito](https://www.devitoproject.org/) library.
+This is the example for wave equations from 1 dimension to 3 dimension. It is froked from the [Mudulus-Sym-examples](https://docs.nvidia.com/deeplearning/modulus/modulus-sym/user_guide/foundational/1d_wave_equation.html) with additional code attached so you can create your own dataset using the additional code and [Devito](https://www.devitoproject.org/) library.
 
 ## :sparkles: Features ##
 
@@ -93,3 +93,6 @@ Made with :heart: by <a href="https://github.com/JustinLinKK" target="_blank">Ju
 &#xa0;
 
 <a href="#top">Back to top</a>
+
+## :memo: Code Citation ##
+[Modulus-Sym](https://github.com/NVIDIA/modulus-sym)
