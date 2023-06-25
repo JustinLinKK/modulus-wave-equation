@@ -9,19 +9,19 @@
 <h1 align="center">Modulus Wave Equation</h1>
 
 <p align="center">
-  <img alt="Github top language" src="https://img.shields.io/github/languages/top/{{YOUR_GITHUB_USERNAME}}/modulus-wave-equation?color=56BEB8">
+  <img alt="Github top language" src="https://img.shields.io/github/languages/top/{{JustinLinKK}}/modulus-wave-equation?color=56BEB8">
 
-  <img alt="Github language count" src="https://img.shields.io/github/languages/count/{{YOUR_GITHUB_USERNAME}}/modulus-wave-equation?color=56BEB8">
+  <img alt="Github language count" src="https://img.shields.io/github/languages/count/{{JustinLinKK}}/modulus-wave-equation?color=56BEB8">
 
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/{{YOUR_GITHUB_USERNAME}}/modulus-wave-equation?color=56BEB8">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/{{JustinLinKK}}/modulus-wave-equation?color=56BEB8">
 
-  <img alt="License" src="https://img.shields.io/github/license/{{YOUR_GITHUB_USERNAME}}/modulus-wave-equation?color=56BEB8">
+  <img alt="License" src="https://img.shields.io/github/license/{{JustinLinKK}}/modulus-wave-equation?color=56BEB8">
 
-  <!-- <img alt="Github issues" src="https://img.shields.io/github/issues/{{YOUR_GITHUB_USERNAME}}/modulus-wave-equation?color=56BEB8" /> -->
+  <!-- <img alt="Github issues" src="https://img.shields.io/github/issues/{{JustinLinKK}}/modulus-wave-equation?color=56BEB8" /> -->
 
-  <!-- <img alt="Github forks" src="https://img.shields.io/github/forks/{{YOUR_GITHUB_USERNAME}}/modulus-wave-equation?color=56BEB8" /> -->
+  <!-- <img alt="Github forks" src="https://img.shields.io/github/forks/{{JustinLinKK}}/modulus-wave-equation?color=56BEB8" /> -->
 
-  <!-- <img alt="Github stars" src="https://img.shields.io/github/stars/{{YOUR_GITHUB_USERNAME}}/modulus-wave-equation?color=56BEB8" /> -->
+  <!-- <img alt="Github stars" src="https://img.shields.io/github/stars/{{JustinLinKK}}/modulus-wave-equation?color=56BEB8" /> -->
 </p>
 
 <!-- Status -->
@@ -39,59 +39,56 @@
   <a href="#white_check_mark-requirements">Requirements</a> &#xa0; | &#xa0;
   <a href="#checkered_flag-starting">Starting</a> &#xa0; | &#xa0;
   <a href="#memo-license">License</a> &#xa0; | &#xa0;
-  <a href="https://github.com/{{YOUR_GITHUB_USERNAME}}" target="_blank">Author</a>
+  <a href="https://github.com/{{JustinLinKK}}" target="_blank">Author</a>
 </p>
 
 <br>
 
 ## :dart: About ##
 
-Describe your project
+This is the example for wave equations from 1 dimension to 3 dimension. It is froked from the [Mudulus-Sym-examples](https://docs.nvidia.com/deeplearning/modulus/modulus-sym/user_guide/foundational/1d_wave_equation.html) with additional code attached so you can create your own data set using the additional code and [Devito](https://www.devitoproject.org/) library.
 
 ## :sparkles: Features ##
 
-:heavy_check_mark: Feature 1;\
-:heavy_check_mark: Feature 2;\
-:heavy_check_mark: Feature 3;
+:heavy_check_mark: Use the Neural Network and CUDA Toolkits to solve the wave equation;\
+:heavy_check_mark: Same precision as the Benchmark result from [Devito](https://www.devitoproject.org/) and less error caused by the boundary reflection;\
+:heavy_check_mark: Added the 3D wave equation example;
 
 ## :rocket: Technologies ##
 
 The following tools were used in this project:
 
-- [Expo](https://expo.io/)
-- [Node.js](https://nodejs.org/en/)
-- [React](https://pt-br.reactjs.org/)
-- [React Native](https://reactnative.dev/)
-- [TypeScript](https://www.typescriptlang.org/)
+- [Mudulus-Sym](https://docs.nvidia.com/deeplearning/modulus/modulus-sym/user_guide/getting_started/installation.html)
+- [Devito](https://www.devitoproject.org/)
+- [Pytorch](https://pytorch.org/)
+- [ParaView](https://www.paraview.org/)
+- [OpenFoam](https://www.openfoam.com/)
 
 ## :white_check_mark: Requirements ##
 
-Before starting :checkered_flag:, you need to have [Git](https://git-scm.com) and [Node](https://nodejs.org/en/) installed.
+Before starting :checkered_flag:, you need to have [Devito](https://www.devitoproject.org/), [ParaView](https://www.paraview.org/) and [Modulus-Sym](https://docs.nvidia.com/deeplearning/modulus/modulus-sym/user_guide/getting_started/installation.html) installed.
 
 ## :checkered_flag: Starting ##
 
 ```bash
 # Clone this project
-$ git clone https://github.com/{{YOUR_GITHUB_USERNAME}}/modulus-wave-equation
+$ git clone https://github.com/{{JustinLinKK}}/modulus-wave-equation
 
 # Access
 $ cd modulus-wave-equation
 
 # Install dependencies
-$ yarn
+$ pip install -r requirements.txt
 
-# Run the project
-$ yarn start
-
-# The server will initialize in the <http://localhost:3000>
+# Run the project based on the example you want
 ```
 
 ## :memo: License ##
 
-This project is under license from MIT. For more details, see the [LICENSE](LICENSE.md) file.
+This project is under license from GPL-3.0. For more details, see the [LICENSE](LICENSE.md) file.
 
 
-Made with :heart: by <a href="https://github.com/{{YOUR_GITHUB_USERNAME}}" target="_blank">{{YOUR_NAME}}</a>
+Made with :heart: by <a href="https://github.com/{{JustinLinKK}}" target="_blank">{{Justin}}</a>
 
 &#xa0;
 
